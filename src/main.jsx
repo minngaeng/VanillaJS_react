@@ -1,9 +1,10 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
 
-const App = () => {
-  return <h1>Hello World</h1>;
-};
-
-const root = ReactDOM.createRoot(document.getElementById("app"));
-root.render(<App />);
+export default function App() {
+  return (
+    <div>
+      <h1>Hello World</h1>
+      <p>react parsing</p>
+    </div>
+  );
+}
