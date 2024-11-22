@@ -4,8 +4,10 @@
     [
       "@babel/preset-react",
       {
-        "runtime": "classic"
+        "runtime": "automatic"
       }
     ]
   ]
 }
+
+// babel 지우고 esbuild 이용해보기
